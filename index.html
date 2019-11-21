@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>awesome-kanban</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/uswds/2.1.0/css/uswds.min.css'>
+  <link rel="stylesheet" href="./styles/main.css">
+
+</head>
+<body>
+  <div id="root"></div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/react/15.6.1/react-dom.min.js'></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <!-- loaded from node_modules/ for convenience. Not a production practice. -->
+  <script type="text/javascript" src='./node_modules/kanbandb/dist/KanbanDB.js'></script>
+  <!-- this script provides global function to seed database data -->
+  <script type="text/javascript" src='./scripts/seedDB.js'></script>
+  <script type="text/babel" src='./components/App.js'></script>
+</body>
+</html>

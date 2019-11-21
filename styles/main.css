@@ -1,0 +1,58 @@
+/*
+ * Using The U.S. Web Design System
+ * as a baseline for CSS styles
+ * @ https://github.com/uswds/uswds
+ *
+ */
+ body {
+  color: #020E18;
+}
+
+.kanban-column {
+  padding: 4px 15px 15px;
+  border-radius: .75rem;
+  background: #e0e4ea;
+  background: linear-gradient(145deg, #e0e4ea 0%, #c2c9d5 100%);
+  -webkit-filter: drop-shadow(0 5px 3px #E0E4EA);
+          filter: drop-shadow(0 5px 3px #E0E4EA);
+}
+
+.kanban-column h2 {
+  text-transform: uppercase;
+  font-size: .85rem;
+  color: #154468;
+  letter-spacing: .1em;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #154468;
+}
+
+.kanban-card {
+  text-align: center;
+  background-color: #F0F1F4;
+  color: #07395E;
+  margin-top: 1rem;
+  padding: 10px;
+  border-radius: .25rem;
+  -webkit-filter: drop-shadow(0 3px 3px #A4AFC0);
+          filter: drop-shadow(0 3px 3px #A4AFC0);
+}
+
+.kanban-card h3 {
+  margin: 0;
+}
+
+.kanban-card select {
+  width: 100%;
+  margin-bottom: .75rem;
+}
+
+.kanban-card-timestamps h4 {
+  margin-bottom: .25rem;
+}
+
+.kanban-card small {
+  font-size: .65rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: #416784;
+}
