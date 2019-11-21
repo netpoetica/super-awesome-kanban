@@ -1,6 +1,6 @@
 # super-awesome-kanban
 
-## Pre-interview Assignment Instructions
+Pre-interview Assignment Instructions
 
 
 ## Greetings!
@@ -22,7 +22,7 @@ If you run `npm start` in the project directory, the application will be availab
 
 Make sure you run `npm install` in order to acquire the `KanbanDB` depdendency!
 
-# KanbanDB
+## KanbanDB
 
 You can find the documentation for KanbanDB [here](https://github.com/netpoetica/KanbanDB#kanbandb). This will explain the public API for the mock database client used in this application.
 
