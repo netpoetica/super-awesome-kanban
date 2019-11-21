@@ -29,9 +29,20 @@ You can find the documentation for KanbanDB [here](https://github.com/netpoetica
 
 ## Task (~ 1 hour)
 
-Take a few minutes to navigate the application and the source code to familiarize yourself with it.
+Fork or clone this repo as your starting point - you will need to submit the completed assignment via Github by sending us the URL to your fork or clone.
 
-Once you've got a solid grip on it, the Kanban Board application should be modified to meet the following criteria:
+Take a few minutes to navigate the application (see "Running the Application" above) and the source code to familiarize yourself with it.
+
+This is a React 16 application, but for convenience, we are not using webpack or any build tools. Instead, we just add Babel, React and React-DOM as dependencies in `index.html`.
+
+Most of the work you will need to do is in `components/app.js`, with some additional work to the CSS in `styles/main.css`. You will not need to modify any of the following files:
+
+- `index.html`
+- `scripts/seedDB.js`
+- `bin/serve.sh`
+
+
+Once you've got a solid grip on the codebase, the Kanban Board application should be modified to meet the following criteria:
 
 1. Each individual Card has a different status, one of `TODO`, `DOING`, and `DONE`, but currently all cards are rendered in the `TODO` column. Please ensure the cards are placed in the column accordin to their category. 
 2. Add a new button component that can be rendered in the Card component to delete each individual card from the database.
